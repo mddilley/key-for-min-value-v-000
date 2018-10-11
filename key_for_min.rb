@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     min = value
     if value < min
       value = min
-      min_key = :key
+      min_key = key
     end
   min_key
   end
